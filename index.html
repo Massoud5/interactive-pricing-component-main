@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet" crossorigin="anonymous" integrity='sha(256|384|512)-HASH'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/CSS/Main-mobile.css">
+  <link rel="stylesheet" href="style/CSS/Desktop.css">
+  <link rel="stylesheet" href="/style/CSS/Inputs.css">
+  <title>Interactive pricing component</title>
+
+</head>
+<body>
+  <main>
+    <img src="/style/images/pattern-circles.svg" alt="pattern circles">
+    <h1>
+      Simple, traffic-based pricing
+    </h1>
+    <p class="subtitle">
+      Sign-up for our 30-day trial.
+      No credit card required.
+    </p>
+    
+    <div class="container">
+
+      <form action="">
+
+        <div class="flex-el">
+          <p class="object"><span class="object-span">100K</span> Pageviews</p>
+          <div id="desktop-rate"><span class="desk-price"></span><span class="desk-period"></span></div>
+        </div>
+
+        <div class="input-range-parent">
+          <input type="range" id="input-range" name="range" min="0" max="32" value="16" placeholder=none>
+        </div>
+
+        <div id="mobile-rate">
+          <span class="mob-price"></span><span class="mob-period"></span>
+        </div>
+        
+        <div class="payment-methods">
+          <p class="payment-method1">Monthly Billing</p><input type="checkbox" id="apple-switch" placeholder=none>
+          <p class="payment-method2">Yearly Billing <span class="discount">-25%</span></p>
+        </div>
+        
+        <p><hr class="hr"></p>
+
+        <div class="after-hr">
+          <ul class="options">
+            <li><span>Unlimited websites</span></li>
+            <li><span>100% data ownership</span></li>
+            <li><span>Email reports</span></li>
+          </ul>
+        
+          <button type="submit" id="submit-btn">Start my trial</button>
+        </div>
+
+
+      </form>
+    </div>
+
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="#">Massoud</a>.
+  </div>
+  <script src="/js/script.js"></script>
+  <script src="/js/deskDesign.js"></script>
+</body>
+</html>
