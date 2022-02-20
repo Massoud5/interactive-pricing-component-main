@@ -26,8 +26,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Massoud5/interactive-pricing-component-main)
-
 - Live Site URL: [Add live site URL here] (https://massoud5.github.io/interactive-pricing-component-main/index.html)
 
 
