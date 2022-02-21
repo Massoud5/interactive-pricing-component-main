@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here] (https://massoud5.github.io/interactive-pricing-component-main/index.html)
+- Live Site URL: [Add live site URL here] https://ms-interactive-pricing-component.netlify.app/
 
 
 
